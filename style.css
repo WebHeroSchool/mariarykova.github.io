@@ -153,14 +153,20 @@
 }
 
 .card__click {
-    transform: rotateY(180deg);
     transition: .5s ease;
+}
+
+.card__click .loser__card {
+    transform: rotateY(0);
+}
+
+.card__click .winner__card {
+    transform: rotateY(0);
 }
 
 .card__container-hover{
     box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.5);
     transform: rotate(-3.08deg) translateY(-15px);
-    transition: .5s ease;
 }
 
 .card__backside {

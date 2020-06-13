@@ -60,7 +60,7 @@ function game() {
           gameContainer.classList.add("gameScreen");
           gameContainer.append(card);
           winnerCard.classList.add('winner__card');
-          card.append(winnerCard); 
+          card.append(winnerCard);
          }
          else {
           cardBackside.classList.add("card__backside");
